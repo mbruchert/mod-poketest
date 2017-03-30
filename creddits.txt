@@ -11,3 +11,7 @@ POKETEST:
                  moddel:..DOOMed
                  texture:.DOOMed/MBB
                  code:....MBB
+        torcheck:
+                 moddel:..DOOMed
+                 texture:.DOOMed/MBB
+                 code:....MBB
