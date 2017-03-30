@@ -1,0 +1,13 @@
+ 
+creddis
+
+CREATURES-MOB-ENGINE : BlockMen
+POKETEST:
+         pikachu:
+                 moddel:..MBB
+                 texture:.MBB
+                 code:....MBB
+         mudkip :
+                 moddel:..DOOMed
+                 texture:.DOOMed/MBB
+                 code:....MBB
