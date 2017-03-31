@@ -1,7 +1,7 @@
 --= torchick for poketesr (cme) =--
 --engine: Copyright (c) 2015-2016 BlockMen <blockmen2015@gmail.com>
 --poketest: Copyright (c) 2017 MBB <mbb@webproxy.li>
---NODEBOX OF THIS POKEMON BY <DOOMED>
+--NODEBOX OF THIS POKEMON BY <MBB>
 -- init.lua
 --
 --POKETEST USES BLOCKMEN´S CREATURES MOB ENGINE 
@@ -96,7 +96,7 @@ local def = {
 	},
 
 	drops = {
-		{"default:meat"},
+		{"creatures:flesh"},
 
 	},
 }

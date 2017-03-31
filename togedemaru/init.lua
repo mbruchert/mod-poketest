@@ -1,7 +1,6 @@
---= mudkip for poketesr (cme) =--
+--= togedemaru for poketesr (cme) =--
 --engine: Copyright (c) 2015-2016 BlockMen <blockmen2015@gmail.com>
 --poketest: Copyright (c) 2017 MBB <MBB@webproxy.li>
---NODEBOX OF TIS POKEMON BY <DOOMED>
 -- init.lua
 --
 --POKETEST USES BLOCKMEN´S CREATURES MOB ENGINE 
@@ -29,7 +28,7 @@
 
 local def = {
 	-- general
-	name = "poketest:mudkip",
+	name = "poketest:togedemaru",
 	stats = {
 		hp = 5,
 		lifetime = 300, -- 5 Minutes
@@ -51,10 +50,10 @@ local def = {
 	},
 
 	model = {
-		mesh = "poketest_mudkip.b3d",
-		textures = {"poketest_mudkip.png"},
+		mesh = "poketest_togedemaru.b3d",
+		textures = {"poketest_togedemaru.png"},
 		collisionbox = {-0.25, -0.01, -0.3, 0.25, 0.45, 0.3},
-		rotation = -90,
+		rotation = -180.0,
 
 		collide_with_objects = false,
 		animations = {
@@ -70,11 +69,11 @@ local def = {
 	},
 
 	sounds = {
-			on_damage = {name = "poketest_mudkip_hit", gain = 0.5, distance = 10},
-			on_death = {name = "poketest_mudkip_hit", gain = 0.5, distance = 10},
+			on_damage = {name = "poketest_togedemaru_hit", gain = 0.5, distance = 10},
+			on_death = {name = "poketest_togedemaru_hit", gain = 0.5, distance = 10},
 			swim = {name = "creatures_splash", gain = 1.0, distance = 10},
 			random = {
-				idle = {name = "poketest_mudkip", gain = 0.9, distance = 12, time_min = 8, time_max = 50},
+				idle = {name = "poketest_togedemaru", gain = 0.9, distance = 12, time_min = 8, time_max = 50},
 			},
 	},
 
@@ -90,8 +89,8 @@ local def = {
 		height_limit = {min = 0, max = 150},
 
 		spawn_egg = {
-			description = "mudkip Spawn-Egg",
-			texture = "poketest_egg_mudkip.png",
+			description = "togedemaru Spawn-Egg",
+			texture = "poketest_egg_togedemaru.png",
 		},
 	},
 
